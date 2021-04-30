@@ -36,6 +36,7 @@ test("creates an enemy object", () => {
 //     expect(enemy.getStats()).toHaveProperty('weapon');
 // });
 
+
 test("gets enemy's health value", () => {
     const enemy = new Enemy('goblin', 'sword');
 
